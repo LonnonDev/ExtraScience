@@ -1,0 +1,32 @@
+data:extend {
+    {
+        --[[
+            Ballistics Science Pack
+            for:
+                - Gun Turret
+                - Military
+        ]]
+        type = "tool",
+        name = "ballistics-science-pack-mk1",
+        icons = {
+            {
+                icon = "__base__/graphics/icons/automation-science-pack.png",
+                icon_size = 64,
+            },
+            {
+                icon = "__base__/graphics/icons/pistol.png",
+                scale = 0.4,
+                icon_size = 64,
+                tint = {255, 105, 117, 255},
+                shift = {0, 4}
+            }
+        },
+        icon_size = 64,
+        subgroup = "science-pack",
+        order = "a[ballistics-science-pack-mk1",
+        stack_size = 200,
+        durability = 1,
+        durability_description_key = "description.science-pack-remaining-amount-key",
+        durability_description_value = "description.science-pack-remaining-amount-value"
+    }
+}

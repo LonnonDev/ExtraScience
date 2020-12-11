@@ -1,0 +1,10 @@
+{
+    "name": "MoreScience",
+    "version": "1.0.0",
+    "title": "MoreScience",
+    "author": "LonnonjamesD",
+    "contact": "lonnonjamesd@gmail.com",
+    "description": "Adds more Science to the Game",
+    "factorio_version": "1.1",
+    "dependencies": ["base >= 1.1.1"]
+}
